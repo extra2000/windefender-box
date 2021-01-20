@@ -2,7 +2,7 @@
 
 | License | Versioning | Build |
 | ------- | ---------- | ----- |
-| [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) | [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) | [![Build status](https://ci.appveyor.com/api/projects/status/x4089wg5edwf0h8i/branch/master?svg=true)](https://ci.appveyor.com/project/nikAizuddin/windefender-box/branch/master) |
+| [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fextra2000%2Fwindefender-box.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fextra2000%2Fwindefender-box?ref=badge_shield) | [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) | [![Build status](https://ci.appveyor.com/api/projects/status/x4089wg5edwf0h8i/branch/master?svg=true)](https://ci.appveyor.com/project/nikAizuddin/windefender-box/branch/master) |
 
 Developer box for [Windows Defender](https://github.com/malice-plugins/windows-defender) scanner.
 
@@ -46,3 +46,8 @@ $ vagrant ssh windefender-box
 $ curl https://capesandbox.com/file/sample/110788/50e2c6aac34de9ed4e1b3fcfcd5aaa34892696f2681aa5e8c45a5dbe0915a43c/ --output samplefile
 $ podman run --init --rm -v ./samplefile:/malware/samplefile:ro,z --security-opt seccomp=/opt/windefender/src/seccomp.json malice-plugins/windefender samplefile
 ```
+
+
+## License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fextra2000%2Fwindefender-box.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fextra2000%2Fwindefender-box?ref=badge_large)

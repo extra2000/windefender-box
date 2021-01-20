@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.1.0](https://github.com/extra2000/windefender-box/compare/v1.0.0...v1.1.0) (2021-01-20)
+
+
+### Features
+
+* **submodule:** Update `cockpit-formula` to [v1.0.2](https://github.com/extra2000/cockpit-formula/releases/tag/v1.0.2) ([333aa61](https://github.com/extra2000/windefender-box/commit/333aa61ecc64906294ebce6591e867cad9f68adb))
+* **submodule:** Update `podman-formula` to [v2.2.1](https://github.com/extra2000/podman-formula/releases/tag/v2.2.1) ([92b5902](https://github.com/extra2000/windefender-box/commit/92b59026875aa6c426a7e9f3b4ba8175a5a50642))
+* **submodule:** Update `windefender-formula` to [v1.0.1](https://github.com/extra2000/windefender-formula/releases/tag/v1.0.1) ([482c2a0](https://github.com/extra2000/windefender-box/commit/482c2a0f50ab12a5e3d76ff76964c90d06c6181d))
+
+
+### Documentations
+
+* **README:** Add license scan report and status ([640d8f2](https://github.com/extra2000/windefender-box/commit/640d8f2144c34bccee861f75572b81d4b7663b20))
+
+
+### Continuous Integrations
+
+* **AppVeyor:** Add `--allow-unauthenticated` to `apt install` because of error "The repository 'https://dl.bintray.com/rabbitmq-erlang/debian bionic Release' is no longer signed." ([31b3bcb](https://github.com/extra2000/windefender-box/commit/31b3bcb7a0700b044d945d9ef635de4d1a3522d0))
+* **AppVeyor:** Upgrade Ubuntu from `18.04` to `20.04` ([8f00cc6](https://github.com/extra2000/windefender-box/commit/8f00cc60a6ea5363a6b89b970c8a7e8a56adfbf9))
+
 ## 1.0.0 (2021-01-09)
 
 
